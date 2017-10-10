@@ -1,0 +1,31 @@
+{
+    "name": "ivanmisic/neovim-php-client",
+    "type": "library",
+    "description": "Neovim PHP API client - Create Neovim plugins in PHP",
+    "keywords": [
+        "Neovim",
+        "API Client"
+    ],
+    "authors": [
+        {
+            "name": "Ivan Misic", "email": "ivan@misic.co", "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "NeovimPhpClient\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.0",
+        "react/event-loop": "^0.4.3",
+        "react/stream": "^0.7.3",
+        "react/socket": "^0.8.4",
+        "react/promise": "^2.5",
+        "rybakit/msgpack": "^0.2.2",
+        "evenement/evenement": "^3.0"
+    },
+    "require-dev": {
+        "phpmd/phpmd": "^2.6"
+    }
+}

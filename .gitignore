@@ -1,0 +1,7 @@
+*.un~
+*.swp~
+vendor/
+composer.lock
+phpmd
+*ignore/
+*ignore.php
